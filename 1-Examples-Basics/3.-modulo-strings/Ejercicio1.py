@@ -1,22 +1,14 @@
-#Crear un programa, que tenga una variable con la cadena “Te quiero solo como amigo”, y muestre la siguiente información:
-
-#• Imprima los dos primeros caracteres.
-
-#• Imprima los tres últimos caracteres.
-
-#• Imprima dicha cadena cada dos caracteres. Ej.: Si la cadena fuera “recta” debería imprimir rca
-
-#• Dicha cadena en sentido inverso. Ej.: Si la cadena fuera hola mundo! debe imprimir !odnum aloh
-
-#• Imprima la cadena en un sentido y en sentido inverso. Ej: Si la cadena es “reflejo” imprime reflejoojelfer.
-
-cadena = "Te quiero solo como amigo"
-
-print(cadena[0 : 2])
-print(cadena[-3 : ])
-print(cadena[: : 2])
-print(cadena[: : -1])
-print(cadena + cadena[: : -1])
+chain_1 = "Meeting with you"
+# Firs two chars are printed
+print(chain_1[0 : 2])
+#Last tree chars are printed
+print(chain_1[-3 : ])
+# Every two characters has been printed
+print(chain_1[: : 2])
+# sort reversed the value of the string
+print(chain_1[: : -1])
+# Summing an string and sort reversed
+print(chain_1 + " " + chain_1[: : -1])
 
 
 
