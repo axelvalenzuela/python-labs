@@ -1,14 +1,8 @@
-'''nombre = "Walter Coto" #Esta variable contiene mi nombre
+''' This is a comment
 
-print(nombre) #Estoy imprimiendo mi nombre
+'''
 
-Este es un 
-comentario
-de 
-multiples
-lineas'''
+name , last_name = 'Alvaro' , 'Ortiz'
 
-nombre , apellido = 'Alvaro' , 'Chirou'
-
-print(nombre)
-print(apellido)
+print(name)
+print(last_name)

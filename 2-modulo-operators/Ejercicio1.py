@@ -1,3 +1,5 @@
-calculo = pow(((3+2) / (5*2)) , 2)
+from unittest import result
 
-print(calculo)
+result = pow(((3+2) / (5*2)) , 2)
+
+print(result)

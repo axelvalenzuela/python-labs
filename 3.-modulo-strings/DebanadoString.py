@@ -1,3 +1,7 @@
-cadena = "Este es un ejemplo de Substring (Debanado de Cadenas)"
+chain_1 = " Example of Substring "
 
-print(cadena[-10 : -1])
+print(chain_1[-10 : -1])
+
+chain_2 = "123456789"
+
+print(chain_1[-10 : -1])
